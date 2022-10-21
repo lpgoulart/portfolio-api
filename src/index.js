@@ -1,6 +1,6 @@
 const express = require('express');
 const axios = require('axios');
-const { response } = require('express');
+const mangas = require('./mangas/index')
 
 const app = express();
 
@@ -16,6 +16,10 @@ app.get('/', (request, response)=>{
     return response.json({
         running: "is running!!"
     })
+})
+
+app.get('/mangas', (request, response)=>{
+  return response.json(mangas)
 })
 
 app.get('/steam', (req, res) => {
