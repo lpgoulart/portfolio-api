@@ -254,7 +254,7 @@ module.exports = [
   {
     favorite: false,
     mangaTitle: "Record Of Ragnarok",
-    mangaCover: "https://avt.mkklcdnv6temp.com/38/p/17-1583496655.jpg0",
+    mangaCover: "https://avt.mkklcdnv6temp.com/38/p/17-1583496655.jpg",
     mangaSynopsis: "The story begins when the gods call a convention to decide the whether to let humanity live or die, and settle on destroying humanity. But a lone valkyrie puts forward a suggestion to let the gods and humanity fight one last battle, as a last hope for humanity's continued survival. 13 gods will fight against 13 human champions in one-on-one battles to decide whether humanity lives or dies.",
     _id: "records",
   },
