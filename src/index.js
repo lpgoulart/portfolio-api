@@ -1,8 +1,11 @@
 const express = require('express');
 const axios = require('axios');
-const mangas = require('./mangas/index')
+const mangas = require('./mangas/index');
+const cors = require('cors');
 
 const app = express();
+
+app.use(cors());
 
 const getGames = () => {
     try {
